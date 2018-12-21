@@ -13,6 +13,8 @@
 		93B50EB521CBBCB5004C387D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B50EB421CBBCB5004C387D /* Assets.xcassets */; };
 		93B50EB821CBBCB5004C387D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B50EB621CBBCB5004C387D /* LaunchScreen.storyboard */; };
 		93B50EC321CBBCB5004C387D /* OnOffLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B50EC221CBBCB5004C387D /* OnOffLightTests.swift */; };
+		93B50ECE21CBC303004C387D /* onlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B50ECD21CBC303004C387D /* onlight.png */; };
+		93B50ED021CBC9B8004C387D /* offlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B50ECF21CBC9B8004C387D /* offlight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		93B50EBE21CBBCB5004C387D /* OnOffLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnOffLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B50EC221CBBCB5004C387D /* OnOffLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffLightTests.swift; sourceTree = "<group>"; };
 		93B50EC421CBBCB5004C387D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B50ECD21CBC303004C387D /* onlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onlight.png; path = ../../Downloads/onlight.png; sourceTree = "<group>"; };
+		93B50ECF21CBC9B8004C387D /* offlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = offlight.png; path = ../../Downloads/offlight.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				93B50EAD21CBBCB3004C387D /* AppDelegate.swift */,
 				93B50EAF21CBBCB3004C387D /* ViewController.swift */,
+				93B50ECD21CBC303004C387D /* onlight.png */,
 				93B50EB121CBBCB3004C387D /* Main.storyboard */,
+				93B50ECF21CBC9B8004C387D /* offlight.png */,
 				93B50EB421CBBCB5004C387D /* Assets.xcassets */,
 				93B50EB621CBBCB5004C387D /* LaunchScreen.storyboard */,
 				93B50EB921CBBCB5004C387D /* Info.plist */,
@@ -179,7 +185,9 @@
 			files = (
 				93B50EB821CBBCB5004C387D /* LaunchScreen.storyboard in Resources */,
 				93B50EB521CBBCB5004C387D /* Assets.xcassets in Resources */,
+				93B50ED021CBC9B8004C387D /* offlight.png in Resources */,
 				93B50EB321CBBCB3004C387D /* Main.storyboard in Resources */,
+				93B50ECE21CBC303004C387D /* onlight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
